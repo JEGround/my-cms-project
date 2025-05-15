@@ -22,3 +22,19 @@ nav a {
   color: white;
   text-decoration: none;
 }
+main {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+section {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
