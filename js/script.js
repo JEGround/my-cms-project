@@ -15,7 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
       website: form["event-website"].value,
     };
 
-    console.log("Event Submitted:", eventData);
+    let events = JSON.parse(localStorage.getItem("events")) || [];
+events.push(eventData);
+localStorage.setItem("events", JSON.stringify(events));
 
     // Optional: Display below the form as a preview
     const preview = document.createElement("div");
