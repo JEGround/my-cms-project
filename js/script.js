@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       date: form["event-date"].value,
       time: form["event-time"].value,
       location: form["event-location"].value,
+      category: form["event-category"].value,
       description: form["event-description"].value,
       ticketLink: form["event-ticket-link"].value,
       website: form["event-website"].value,
